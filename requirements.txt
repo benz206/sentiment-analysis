@@ -1,0 +1,2 @@
+beautifulsoup4==4.13.4
+vaderSentiment==3.3.2

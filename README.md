@@ -10,10 +10,15 @@ Just clone, install reqs, I'm using Python `3.12.8`.
 git clone https://github.com/benz-206/sentiment-analysis.git
 cd sentiment-analysis
 pip install -r requirements.txt
+
+# Running... Wow
 python3 src/main.py
 ```
 
 ## Task
+
+Copied from the discord:
+
 To get everyone started and aligned, here’s a task that blends web scraping and sentiment analysis:
 
 Choose a trending topic you’re interested in (e.g., interest rates, electric vehicles, Elon Musk, Champions League, etc.).
