@@ -4,11 +4,28 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 import requests
+import streamlit as st
 from bs4 import BeautifulSoup
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+st.set_page_config(page_title="News Sentiment Analyzer", page_icon="📰", layout="wide")
 
-def scrape_news(topic: str) -> list:
+st.markdown(
+    """
+    <style>
+    .main {
+        padding: 2rem;
+    }
+    .stButton>button {
+        width: 400px;
+    }
+    </style>
+""",
+    unsafe_allow_html=True,
+)
+
+
+def scrape_news(topic: str, num_pages: int) -> list:
     """
     Scrapes recent news headlines, summaries, and other details for a given topic
     from Yahoo News across multiple pages.
@@ -27,12 +44,12 @@ def scrape_news(topic: str) -> list:
 
     all_articles = []
 
-    for page in range(1, 10):
+    for page in range(1, num_pages + 1):
         params = {
             "p": topic,
             "fr2": "piv-web",
             "fr": "uh3_news_web",
-            "b": (page - 1) * 10 + 1, # Yahoo uses 1 based indexing instead of 0...
+            "b": (page - 1) * 10 + 1,  # Yahoo uses 1 based indexing instead of 0...
         }
 
         try:
@@ -176,59 +193,122 @@ def save_results_to_file(articles: list, data: dict, topic: str, avg: float):
         json.dump(results, f, indent=4)
 
 
-if __name__ == "__main__":
-    search_topic = "Elon Musk"
-    scraped_articles = scrape_news(search_topic)
+def display_results(articles: list, data: dict, topic: str, avg: float):
+    """
+    Displays the analysis results in the Streamlit interface.
 
-    if not scraped_articles:
-        print("No articles were scraped. Exiting.")
-    else:
-        print(
-            f"Successfully scraped {len(scraped_articles)} articles for '{search_topic}'.\n"
+    Args:
+        articles (list): List of analyzed articles
+        data (dict): Dictionary containing sentiment counts
+        topic (str): The search topic
+        avg (float): The average compound sentiment score
+    """
+    # Create two columns for the charts (bar and pie)
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.subheader("Sentiment Distribution")
+        fig1, ax1 = plt.subplots(figsize=(8, 6))
+        ax1.bar(data.keys(), data.values(), color=["green", "red", "gray"])
+        ax1.set_title(f'Sentiment Distribution for "{topic}" News Headlines')
+        ax1.set_xlabel("Sentiment")
+        ax1.set_ylabel("Number of Headlines")
+        for i, count in enumerate(data.values()):
+            ax1.text(i, count, str(count), ha="center", va="bottom")
+        st.pyplot(fig1)
+        plt.close()
+
+    with col2:
+        st.subheader("Sentiment Distribution (Pie Chart)")
+        fig2, ax2 = plt.subplots(figsize=(8, 8))
+        ax2.pie(
+            data.values(),
+            labels=data.keys(),
+            autopct="%1.1f%%",
+            colors=["green", "red", "gray"],
         )
+        ax2.set_title(f'Sentiment Distribution for "{topic}" News Headlines')
+        st.pyplot(fig2)
+        plt.close()
 
-        analyzer = SentimentIntensityAnalyzer()
-        sentimen_data = {"Positive": 0, "Negative": 0, "Neutral": 0}
-        total_compound_score = 0
+    st.subheader("Overall Statistics")
+    col3, col4, col5 = st.columns(3)
+    with col3:
+        st.metric("Positive Headlines", data["Positive"])
+    with col4:
+        st.metric("Negative Headlines", data["Negative"])
+    with col5:
+        st.metric("Neutral Headlines", data["Neutral"])
 
-        for article in scraped_articles:
-            sentiment_scores = analyzer.polarity_scores(article["headline"])
-            compound_score = sentiment_scores["compound"]
-            sentiment_label = get_sentiment_label(compound_score)
+    st.metric("Average Compound Score", f"{avg:.3f}")
+    st.metric("Overall Sentiment", get_sentiment_label(avg))
 
-            article["sentiment_scores"] = sentiment_scores
-            article["sentiment_label"] = sentiment_label
+    # Display articles in an expandable sections :)
+    st.subheader("Analyzed Articles")
+    for article in articles:
+        sentiment_color = {"Positive": "🟢", "Negative": "🔴", "Neutral": "⚪"}[
+            article["sentiment_label"]
+        ]
 
-            sentimen_data[sentiment_label] += 1
-            total_compound_score += compound_score
+        with st.expander(f"{sentiment_color} {article['headline']}"):
+            st.write(f"**Source:** {article['source']}")
+            st.write(f"**Time:** {article['time']}")
+            st.write(f"**Description:** {article['description']}")
+            st.write("**Sentiment Scores:**")
+            st.write(f"- Compound: {article['sentiment_scores']['compound']:.3f}")
+            st.write(f"- Positive: {article['sentiment_scores']['pos']:.3f}")
+            st.write(f"- Negative: {article['sentiment_scores']['neg']:.3f}")
+            st.write(f"- Neutral: {article['sentiment_scores']['neu']:.3f}")
+            st.markdown(f"[Read full article]({article['link']})")
 
-            print(f"Headline: {article['headline']}")
-            print(f"Source: {article['source']} | Time: {article['time']}")
-            print(
-                f"Sentiment: {article['sentiment_label']} (Compound Score: {compound_score:.2f})"
+
+def main():
+    st.title("📰 News Sentiment Analyzer")
+    st.write("Analyze the sentiment of news articles for any topic using Yahoo News.")
+
+    search_topic = st.text_input("Enter a topic to analyze:", "Elon Musk")
+
+    num_pages = st.slider(
+        "Number of pages to scrape:", min_value=1, max_value=10, value=5
+    )
+
+    if st.button("Analyze Sentiment"):
+        with st.spinner("Scraping news articles..."):
+            scraped_articles = scrape_news(search_topic, num_pages)
+
+        if not scraped_articles:
+            st.error("No articles were found. Please try a different topic.")
+        else:
+            st.success(
+                f"Successfully scraped {len(scraped_articles)} articles for '{search_topic}'."
             )
-            print("-" * 30)
 
-        sentiment_avg = total_compound_score / len(scraped_articles)
-        overall_sentiment_label = get_sentiment_label(sentiment_avg)
+            analyzer = SentimentIntensityAnalyzer()
+            sentiment_data = {"Positive": 0, "Negative": 0, "Neutral": 0}
+            total_compound_score = 0
 
-        visualize_sentiment_results(sentimen_data, search_topic, sentiment_avg)
+            for article in scraped_articles:
+                sentiment_scores = analyzer.polarity_scores(article["headline"])
+                compound_score = sentiment_scores["compound"]
+                sentiment_label = get_sentiment_label(compound_score)
 
-        save_results_to_file(
-            scraped_articles, sentimen_data, search_topic, sentiment_avg
-        )
+                article["sentiment_scores"] = sentiment_scores
+                article["sentiment_label"] = sentiment_label
 
-        print("\n" + "=" * 40)
-        print("Overall Sentiment Analysis Summary")
-        print("=" * 40)
-        print(f"Positive Headlines: {sentimen_data['Positive']}")
-        print(f"Negative Headlines: {sentimen_data['Negative']}")
-        print(f"Neutral Headlines:  {sentimen_data['Neutral']}")
-        print(f"\nAverage Compound Score: {sentiment_avg:.3f}")
-        print(
-            f"Overall sentiment for '{search_topic}' appears to be: {overall_sentiment_label}"
-        )
-        print("\nResults have been saved to the 'output' directory:")
-        print("- Sentiment distribution charts (PNG)")
-        print("- Detailed analysis results (JSON)")
-        print("=" * 40)
+                sentiment_data[sentiment_label] += 1
+                total_compound_score += compound_score
+
+            sentiment_avg = total_compound_score / len(scraped_articles)
+
+            display_results(
+                scraped_articles, sentiment_data, search_topic, sentiment_avg
+            )
+
+            save_results_to_file(
+                scraped_articles, sentiment_data, search_topic, sentiment_avg
+            )
+            st.info("Results have been saved to the 'output' directory.")
+
+
+if __name__ == "__main__":
+    main()
