@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 
 import matplotlib.pyplot as plt
+import numpy as np
 import requests
 import streamlit as st
 from bs4 import BeautifulSoup
@@ -203,8 +204,7 @@ def display_results(articles: list, data: dict, topic: str, avg: float):
         topic (str): The search topic
         avg (float): The average compound sentiment score
     """
-    # Create two columns for the charts (bar and pie)
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         st.subheader("Sentiment Distribution")
@@ -229,6 +229,49 @@ def display_results(articles: list, data: dict, topic: str, avg: float):
         )
         ax2.set_title(f'Sentiment Distribution for "{topic}" News Headlines')
         st.pyplot(fig2)
+        plt.close()
+
+    with col3:
+        st.subheader("Sentiment Score Distribution")
+        bins = [-1.0, -0.5, -0.1, 0.0, 0.1, 0.5, 1.0]
+        labels = [
+            "-1.0 to -0.5",
+            "-0.5 to -0.1",
+            "-0.1 to 0.0",
+            "0.0",
+            "0.0 to 0.1",
+            "0.1 to 1.0",
+        ]
+
+        # Counts articles for each interval
+        scores = [article["sentiment_scores"]["compound"] for article in articles]
+        hist, _ = np.histogram(scores, bins=bins)
+
+        fig3, ax3 = plt.subplots(figsize=(10, 6))
+        bars = ax3.bar(
+            labels,
+            hist,
+            color=["darkred", "red", "lightgray", "gray", "lightgreen", "darkgreen"],
+        )
+        ax3.set_title("Distribution of Sentiment Scores")
+        ax3.set_xlabel("Sentiment Score Range")
+        ax3.set_ylabel("Number of Articles")
+
+        plt.xticks(rotation=45, ha="right")
+
+        # Add count labels on top of each bar
+        for bar in bars:
+            height = bar.get_height()
+            ax3.text(
+                bar.get_x() + bar.get_width() / 2.0,
+                height,
+                f"{int(height)}",
+                ha="center",
+                va="bottom",
+            )
+
+        plt.tight_layout()
+        st.pyplot(fig3)
         plt.close()
 
     st.subheader("Overall Statistics")

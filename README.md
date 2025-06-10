@@ -1,6 +1,8 @@
 # Web Scraping + Sentiment Analysis
 
-Uh time to figure this out.
+You can try out the final product [here](https://benz-sentiment-analysis.streamlit.app/).
+
+My writeup is also at the bottom of this page.
 
 ## Setup + Requirements
 
@@ -34,3 +36,12 @@ Don't worry if you're new to thisâ€”it's designed to be a starter task, and weâ€
 
 ## WriteUp
 
+This was a fun little project to work on, given more time (midterms are coming up...) I would've definitely liked to try adding more features.
+
+However I'm still happy with my results. To try out my final product you can again go to [this link](https://benz-sentiment-analysis.streamlit.app/) and play around with it. I originally wanted to just analyze trends on Elon Musk, especially given his recent headlines and actions, but in general it was super easy to just modify the URL to scrape any topic so I ended up letting the user choose the topic.
+
+I also added a small feature so that the user can quickly change the number of pages they want to scrape. Afterwards the project will scrape the news and display the results in a few different ways. In general there will be 2 bar charts and a pie chart, each showing the distribution of sentiments. Unfortunately, for Elon Musk, he seemed to be largely negative.
+
+One final small touch was logging and expandable sections for each article (datapoint), it has basically all the information I scraped along with the final sentiment scores from VADER. I also added a quick color to show the overall sentiment of the said article.
+
+One feature I would've liked to add is a full scrape of the entire article and not just the title and short description provided. I did give it a quick short but given my time constraints I just decided to leave it as is. Another feature I think would be cool is maybe an integration with stocks and trying to correlate the sentiment of the news with the stock price. I did see someone else do something similar, however I again didn't have the time.
