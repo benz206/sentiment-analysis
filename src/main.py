@@ -1,7 +1,10 @@
+import json
+import os
+from datetime import datetime
+
+import matplotlib.pyplot as plt
 import requests
 from bs4 import BeautifulSoup
-import json
-
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
@@ -91,6 +94,75 @@ def get_sentiment_label(cs: float) -> str:
     return "Neutral"
 
 
+def visualize_sentiment_results(data: dict, topic: str, avg: float):
+    """
+    Creates visualizations for the sentiment analysis results.
+
+    Args:
+        data (dict): Dictionary containing counts of each sentiment
+        topic (str): The search topic
+        avg (float): The average compound sentiment score
+    """
+    # Ensure the output dir actually exists...
+    os.makedirs("output", exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Simple bar chart for the sentiment distributions
+    plt.figure(figsize=(10, 6))
+    plt.bar(
+        data.keys(),
+        data.values(),
+        color=["green", "red", "gray"],
+    )
+    plt.title(f'Sentiment Distribution for "{topic}" News Headlines')
+    plt.xlabel("Sentiment")
+    plt.ylabel("Number of Headlines")
+
+    # Add count labels on top of bars...
+    for i, count in enumerate(data.values()):
+        plt.text(i, count, str(count), ha="center", va="bottom")
+
+    plt.savefig(f"output/sentiment_distribution_{timestamp}.png")
+    plt.close()
+
+    # Pie chart version for the visualizations
+    plt.figure(figsize=(8, 8))
+    plt.pie(
+        data.values(),
+        labels=data.keys(),
+        autopct="%1.1f%%",
+        colors=["green", "red", "gray"],
+    )
+    plt.title(f'Sentiment Distribution for "{topic}" News Headlines')
+    plt.savefig(f"output/sentiment_pie_{timestamp}.png")
+    plt.close()
+
+
+def save_results_to_file(articles: list, data: dict, topic: str, avg: float):
+    """
+    Saves the analysis results to a JSON file.
+
+    Args:
+        articles (list): List of analyzed articles
+        data (dict): Dictionary containing sentiment counts
+        topic (str): The search topic
+        avg (float): The average compound sentiment score
+    """
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    results = {
+        "topic": topic,
+        "timestamp": timestamp,
+        "total_articles": len(articles),
+        "sentiment_distribution": data,
+        "avg": avg,
+        "articles": articles,
+    }
+
+    os.makedirs("output", exist_ok=True)
+    with open(f"output/analysis_results_{timestamp}.json", "w") as f:
+        json.dump(results, f, indent=4)
+
+
 if __name__ == "__main__":
     search_topic = "Elon Musk"
     scraped_articles = scrape_news(search_topic)
@@ -103,7 +175,7 @@ if __name__ == "__main__":
         )
 
         analyzer = SentimentIntensityAnalyzer()
-        sentiment_counts = {"Positive": 0, "Negative": 0, "Neutral": 0}
+        sentimen_data = {"Positive": 0, "Negative": 0, "Neutral": 0}
         total_compound_score = 0
 
         for article in scraped_articles:
@@ -114,7 +186,7 @@ if __name__ == "__main__":
             article["sentiment_scores"] = sentiment_scores
             article["sentiment_label"] = sentiment_label
 
-            sentiment_counts[sentiment_label] += 1
+            sentimen_data[sentiment_label] += 1
             total_compound_score += compound_score
 
             print(f"Headline: {article['headline']}")
@@ -124,18 +196,26 @@ if __name__ == "__main__":
             )
             print("-" * 30)
 
+        sentiment_avg = total_compound_score / len(scraped_articles)
+        overall_sentiment_label = get_sentiment_label(sentiment_avg)
+
+        visualize_sentiment_results(sentimen_data, search_topic, sentiment_avg)
+
+        save_results_to_file(
+            scraped_articles, sentimen_data, search_topic, sentiment_avg
+        )
+
         print("\n" + "=" * 40)
         print("Overall Sentiment Analysis Summary")
         print("=" * 40)
-        print(f"Positive Headlines: {sentiment_counts['Positive']}")
-        print(f"Negative Headlines: {sentiment_counts['Negative']}")
-        print(f"Neutral Headlines:  {sentiment_counts['Neutral']}")
-
-        average_sentiment = total_compound_score / len(scraped_articles)
-        overall_sentiment_label = get_sentiment_label(average_sentiment)
-
-        print(f"\nAverage Compound Score: {average_sentiment:.3f}")
+        print(f"Positive Headlines: {sentimen_data['Positive']}")
+        print(f"Negative Headlines: {sentimen_data['Negative']}")
+        print(f"Neutral Headlines:  {sentimen_data['Neutral']}")
+        print(f"\nAverage Compound Score: {sentiment_avg:.3f}")
         print(
             f"Overall sentiment for '{search_topic}' appears to be: {overall_sentiment_label}"
         )
+        print("\nResults have been saved to the 'output' directory:")
+        print("- Sentiment distribution charts (PNG)")
+        print("- Detailed analysis results (JSON)")
         print("=" * 40)

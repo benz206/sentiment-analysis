@@ -1,0 +1,153 @@
+{
+    "topic": "Elon Musk",
+    "timestamp": "20250610_123213",
+    "total_articles": 10,
+    "sentiment_distribution": {
+        "Positive": 3,
+        "Negative": 4,
+        "Neutral": 3
+    },
+    "average_sentiment": -0.07177,
+    "articles": [
+        {
+            "headline": "Stunning New Details Emerge On HowElonMuskGot His Black Eye",
+            "source": "Total Pro Sports",
+            "time": "\u00b7 2 days ago",
+            "description": "A new report provides stunning details on howElonMuskreceived his black eye, which was noticeable...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJhA7wFAx.;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fwww.totalprosports.com%2fgeneral%2fstunning-new-details-emerge-on-how-elon-musk-got-his-black-eye%2f/RK=2/RS=ALk8MAqIKA60evgtjEExnLWRnd4-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.755,
+                "pos": 0.245,
+                "compound": 0.3818
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "ElonMuskwas right \u2014 there is a 'really big bomb' controlling Trump: ex-aide",
+            "source": "The Raw Story",
+            "time": "\u00b7 6 hours ago",
+            "description": "An Ex-aide of Donald Trump revealed Tuesday that he believes there is a big secret compromising the...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJhg7wFAx.;_ylu=Y29sbwNncTEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fwww.rawstory.com%2ftrump-musk-president-2672341194%2f/RK=2/RS=vjRlmp55cwwleslU9EHKdZGuyAk-",
+            "sentiment_scores": {
+                "neg": 0.24,
+                "neu": 0.76,
+                "pos": 0.0,
+                "compound": -0.539
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Opinion - The Trump-Muskdivorce might be the event that finally might splits MAGA",
+            "source": "The Hill via Yahoo Canada News",
+            "time": "\u00b7 3 hours ago",
+            "description": "ElonMusk's public feud with Donald Trump has opened up divisions within the GOP and could...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJiA7wFAx.;_ylu=Y29sbwNncTEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fopinion-trump-musk-divorce-might-133000417.html/RK=2/RS=F0kD5vXZ8_5ldYqia7nsZwZtHe4-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Why Are Donald Trump andElonMuskFighting? A Timeline of Their Friendship and Explosive Fallout",
+            "source": "People via Yahoo Canada News",
+            "time": "\u00b7 4 days ago",
+            "description": "Chip Somodevilla/Getty ; Anna Moneymaker/Getty President Donald Trump ;ElonMusk. NEED TO KNOWElon...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJig7wFAx.;_ylu=Y29sbwNncTEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fwhy-donald-trump-elon-musk-194953411.html/RK=2/RS=SXu300RViwDzP6XBNnzDCFXZlZA-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.805,
+                "pos": 0.195,
+                "compound": 0.4404
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "ElonMuskbacks Trump amid LA protests",
+            "source": "INSIDER via Yahoo Canada News",
+            "time": "\u00b7 1 day ago",
+            "description": "The supportive reposts fromMuskcame days after his feud with Trump reached a dramatic apex.Win McNamee/Getty ImagesElonMuskreshared ...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJjA7wFAx.;_ylu=Y29sbwNncTEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-musk-backs-trump-amid-144106354.html/RK=2/RS=80OQL1Y_juHY1N6z_9N6O3ZkVkc-",
+            "sentiment_scores": {
+                "neg": 0.322,
+                "neu": 0.678,
+                "pos": 0.0,
+                "compound": -0.2263
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "ElonMuskResponds to Drug Abuse Rumors",
+            "source": "Just Jared",
+            "time": "\u00b7 20 hours ago",
+            "description": "Find out...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJjg7wFAx.;_ylu=Y29sbwNncTEEcG9zAzYEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fwww.justjared.com%2f2025%2f06%2f09%2felon-musk-responds-to-drug-abuse-rumors%2f/RK=2/RS=UrxiP3Q5Li9XPQ_ALpWZCNN9v_8-",
+            "sentiment_scores": {
+                "neg": 0.512,
+                "neu": 0.488,
+                "pos": 0.0,
+                "compound": -0.6369
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "What areElonMusk's kids' names? Meet the 14 children of the tech billionaire",
+            "source": "Indy100",
+            "time": "\u00b7 1 day ago",
+            "description": "ElonMuskhas made his feelings about the \"population apocalypse\" known, which might explain his...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJkA7wFAx.;_ylu=Y29sbwNncTEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fwww.indy100.com%2fpolitics%2felon-musk-kids-children-names-meaning-2672333794/RK=2/RS=fk2qu01doZi4bTdkHwjMngcUe8I-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "ElonJust Couldn't Stop Posting About Trump \u2014 And Experts Say It's Very Revealing",
+            "source": "HuffPost via Yahoo Canada News",
+            "time": "\u00b7 6 hours ago",
+            "description": "ElonMuskposted through his feud against Donald Trump. Experts share the reasons why people feel...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJkg7wFAx.;_ylu=Y29sbwNncTEEcG9zAzgEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-just-couldnt-stop-posting-110006942.html/RK=2/RS=tI2LdctISQpPUVr7YDVr73DJ_n8-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.864,
+                "pos": 0.136,
+                "compound": 0.2235
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "Serena and Venus Williams to Premiere Video Podcast onElonMusk\u2019s X",
+            "source": "Variety via Yahoo Canada News",
+            "time": "\u00b7 32 minutes ago",
+            "description": "Tennis powerhouse sibs Venus and Serena Williams are launching a new video podcast \u2014 and they\u2019re...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJlA7wFAx.;_ylu=Y29sbwNncTEEcG9zAzkEdnRpZAMEc2VjA3Ny/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fserena-venus-williams-premiere-video-160000291.html/RK=2/RS=FEsDf6Bdwnfl65hAL4ZLIr07MV0-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "ElonMuskis criticizing Donald Trump \u2014 and Trump isn't hitting back. Why?",
+            "source": "INSIDER via Yahoo Canada News",
+            "time": "\u00b7 6 days ago",
+            "description": "Donald Trump gaveElonMuska \"key to the White House\" afterMuskcriticized Trump's budget bill....",
+            "link": "https://r.search.yahoo.com/_ylt=AwrjfC0MXkhoazUJlg7wFAx.;_ylu=Y29sbwNncTEEcG9zAzEwBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1749601933/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-musk-may-only-person-153013856.html/RK=2/RS=2YygEvszpWNvQg47ZLTrHImcKck-",
+            "sentiment_scores": {
+                "neg": 0.2,
+                "neu": 0.8,
+                "pos": 0.0,
+                "compound": -0.3612
+            },
+            "sentiment_label": "Negative"
+        }
+    ]
+}
