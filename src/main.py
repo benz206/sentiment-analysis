@@ -11,7 +11,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 def scrape_news(topic: str) -> list:
     """
     Scrapes recent news headlines, summaries, and other details for a given topic
-    from Yahoo News.
+    from Yahoo News across multiple pages.
 
     Args:
         topic (str): The search topic to scrape news for.
@@ -21,60 +21,73 @@ def scrape_news(topic: str) -> list:
               news article and contains its headline, source, time, description, and link.
     """
     base_url = "https://ca.news.search.yahoo.com/search"
-    params = {"p": topic, "fr2": "piv-web", "fr": "uh3_news_web"}
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     }
 
-    try:
-        response = requests.get(base_url, params=params, headers=headers, timeout=10)
-        response.raise_for_status()
-    except requests.exceptions.RequestException as e:
-        print(f"Error making request: {e}")
-        return []
+    all_articles = []
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    for page in range(1, 10):
+        params = {
+            "p": topic,
+            "fr2": "piv-web",
+            "fr": "uh3_news_web",
+            "b": (page - 1) * 10 + 1, # Yahoo uses 1 based indexing instead of 0...
+        }
 
-    articles = []
-    news_items = soup.find_all("div", class_="NewsArticle")
-
-    for item in news_items:
-        title_element = item.find("h4", class_="s-title")
-        headline, link = "No headline found", "#"
-        if title_element and (link_tag := title_element.find("a")):
-            headline = link_tag.get_text(strip=True)
-            link = link_tag.get("href")
-
-        source_element = item.find("span", class_="s-source")
-        source = (
-            source_element.get_text(strip=True) if source_element else "Unknown source"
-        )
-
-        time_element = item.find("span", class_="s-time")
-        time_published = (
-            time_element.get_text(strip=True) if time_element else "Unknown time"
-        )
-
-        description_element = item.find("p", class_="s-desc")
-        description = (
-            description_element.get_text(strip=True)
-            if description_element
-            else "No description found."
-        )
-
-        if headline != "No headline found":
-            articles.append(
-                {
-                    "headline": headline,
-                    "source": source,
-                    "time": time_published,
-                    "description": description,
-                    "link": link,
-                }
+        try:
+            response = requests.get(
+                base_url, params=params, headers=headers, timeout=10
             )
-    print(f"Scraped {len(articles)} articles for '{topic}'.")
-    print(json.dumps(articles, indent=4))
-    return articles
+            response.raise_for_status()
+        except requests.exceptions.RequestException as e:
+            print(f"Error making request for page {page}: {e}")
+            continue
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        news_items = soup.find_all("div", class_="NewsArticle")
+
+        for item in news_items:
+            title_element = item.find("h4", class_="s-title")
+            headline, link = "No headline found", "#"
+            if title_element and (link_tag := title_element.find("a")):
+                headline = link_tag.get_text(strip=True)
+                link = link_tag.get("href")
+
+            source_element = item.find("span", class_="s-source")
+            source = (
+                source_element.get_text(strip=True)
+                if source_element
+                else "Unknown source"
+            )
+
+            time_element = item.find("span", class_="s-time")
+            time_published = (
+                time_element.get_text(strip=True) if time_element else "Unknown time"
+            )
+
+            description_element = item.find("p", class_="s-desc")
+            description = (
+                description_element.get_text(strip=True)
+                if description_element
+                else "No description found."
+            )
+
+            if headline != "No headline found":
+                all_articles.append(
+                    {
+                        "headline": headline,
+                        "source": source,
+                        "time": time_published,
+                        "description": description,
+                        "link": link,
+                    }
+                )
+        print(f"Scraped page {page} for '{topic}'.")
+
+    print(f"Total articles scraped: {len(all_articles)} for '{topic}'.")
+    print(json.dumps(all_articles, indent=4))
+    return all_articles
 
 
 def get_sentiment_label(cs: float) -> str:
@@ -89,7 +102,7 @@ def get_sentiment_label(cs: float) -> str:
     """
     if cs >= 0.05:
         return "Positive"
-    elif cs <= -0.05:
+    if cs <= -0.05:
         return "Negative"
     return "Neutral"
 

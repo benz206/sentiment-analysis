@@ -1,0 +1,713 @@
+{
+    "topic": "Elon Musk",
+    "timestamp": "20250610_164911",
+    "total_articles": 50,
+    "sentiment_distribution": {
+        "Positive": 6,
+        "Negative": 22,
+        "Neutral": 22
+    },
+    "avg": -0.13716399999999998,
+    "articles": [
+        {
+            "headline": "Stunning New Details Emerge On HowElonMuskGot His Black Eye",
+            "source": "Total Pro Sports",
+            "time": "\u00b7 2 days ago",
+            "description": "A new report provides stunning details on howElonMuskreceived his black eye, which was noticeable...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM7AvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fwww.totalprosports.com%2fgeneral%2fstunning-new-details-emerge-on-how-elon-musk-got-his-black-eye%2f/RK=2/RS=tO4xwLKMBgYcgO_kGZTelqwNRKw-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.755,
+                "pos": 0.245,
+                "compound": 0.3818
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "ElonMuskwas right \u2014 there is a 'really big bomb' controlling Trump: ex-aide",
+            "source": "The Raw Story",
+            "time": "\u00b7 10 hours ago",
+            "description": "An Ex-aide of Donald Trump revealed Tuesday that he believes there is a big secret compromising the...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM7gvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fwww.rawstory.com%2ftrump-musk-president-2672341194%2f/RK=2/RS=80Pg8lNdJUxiHOeEUJL4V6Vi6W0-",
+            "sentiment_scores": {
+                "neg": 0.24,
+                "neu": 0.76,
+                "pos": 0.0,
+                "compound": -0.539
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Ugly slurs hurled at Steve Bannon asElonMuskgoes off deep end",
+            "source": "The Raw Story",
+            "time": "\u00b7 5 hours ago",
+            "description": "ElonMusklashed out at Steve Bannon over his suggestion that his rocket company SpaceX should be...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM8AvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fwww.rawstory.com%2fsteve-bannon-elon-musk-2672343360%2f/RK=2/RS=d7oHjq90QDmruxwVP.ra5.sOEL4-",
+            "sentiment_scores": {
+                "neg": 0.268,
+                "neu": 0.732,
+                "pos": 0.0,
+                "compound": -0.5106
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Top investor Cathie Wood saysElonMusk\u2019s feud with Trump shows just how muchMusk\u2019s companies rely...",
+            "source": "Fortune via Yahoo Finance Canada",
+            "time": "\u00b7 10 hours ago",
+            "description": "ElonMusk\u2019s feud with President Donald Trump could especially weigh onMusk\u2019s companies because of...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM8gvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fca.finance.yahoo.com%2fnews%2ftop-investor-cathie-wood-says-103400115.html/RK=2/RS=.MHw3N4oE9CpXI7jnMvMNIttUxs-",
+            "sentiment_scores": {
+                "neg": 0.148,
+                "neu": 0.741,
+                "pos": 0.111,
+                "compound": -0.1531
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "2 Trump allies bought Tesla beforeMuskfallout, lawmaker trading reports show",
+            "source": "Yahoo Finance",
+            "time": "\u00b7 19 minutes ago",
+            "description": "Congressional stock trading reports show that two allies of President Trump loaded up on additional...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM9AvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fca.finance.yahoo.com%2fnews%2f2-trump-allies-bought-tesla-before-musk-fallout-lawmaker-trading-reports-show-202944264.html/RK=2/RS=OiSSAFdnV2p1HEQsEIkYiSna.mk-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "J-Pop star responds to rumors thatElonMuskfathered her children",
+            "source": "The Independent via Yahoo Canada News",
+            "time": "\u00b7 53 minutes ago",
+            "description": "A Japanese pop star has denied claims she shares a child withElonMusk. Ayumi Hamasaki, known as...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM9gvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzYEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fj-pop-star-responds-rumors-195608137.html/RK=2/RS=_qYxVDOfzuWCQ_JDKu8FoWIoZV0-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Opinion - The Trump-Muskdivorce might be the event that finally might splits MAGA",
+            "source": "The Hill via Yahoo Canada News",
+            "time": "\u00b7 7 hours ago",
+            "description": "ElonMusk's public feud with Donald Trump has opened up divisions within the GOP and could...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM.AvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fopinion-trump-musk-divorce-might-133000417.html/RK=2/RS=7C7J5J6Glhvll2n0VlfUwg.FSPU-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Federal agencies were reportedly tracking foreigners visiting withMuskafraid they were trying to...",
+            "source": "The Independent via Yahoo Canada News",
+            "time": "\u00b7 1 hour ago",
+            "description": "Federal agencies were tracking foreign nationals who visitedElonMuskover concerns that they could...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM.gvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzgEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2ffederal-agencies-were-reportedly-tracking-194001337.html/RK=2/RS=.O21kLxFPgxZKRvZo0hFo8uZZUk-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "LA protests inchElonMuskback to President Trump",
+            "source": "CNN Business via Yahoo Canada News",
+            "time": "\u00b7 24 hours ago",
+            "description": "Last week,ElonMuskwas calling for President Donald Trump\u2019s impeachment. This week,Muskis back to praising the administration, softening ...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM_AvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzkEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fla-protests-inch-elon-musk-165923741.html/RK=2/RS=agCQvrtqPxp3o2N6FUIEhOTr8JU-",
+            "sentiment_scores": {
+                "neg": 0.275,
+                "neu": 0.725,
+                "pos": 0.0,
+                "compound": -0.2263
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "ElonJust Couldn't Stop Posting About Trump \u2014 And Experts Say It's Very Revealing",
+            "source": "HuffPost via Yahoo Canada News",
+            "time": "\u00b7 10 hours ago",
+            "description": "ElonMuskposted through his feud against Donald Trump. Experts share the reasons why people feel...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhodScM_gvwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEwBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1749617349/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-just-couldnt-stop-posting-110006942.html/RK=2/RS=8CsjwSjicVpFg7LZ5TF01V2MPPM-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.864,
+                "pos": 0.136,
+                "compound": 0.2235
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "Trump andMuskmight already be making up over Los Angeles protests",
+            "source": "Fortune via Yahoo Canada News",
+            "time": "\u00b7 11 hours ago",
+            "description": "The feud betweenElonMuskand Donald Trump appears to be cooling off, withMuskrecently expressing...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULLCXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2ftrump-musk-might-already-making-101016345.html/RK=2/RS=ri1g2CmC5DUVP88qdquNFr7IKsg-",
+            "sentiment_scores": {
+                "neg": 0.174,
+                "neu": 0.826,
+                "pos": 0.0,
+                "compound": -0.2263
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "ElonMuskJust Responded To A Video Of Trump With A Single Emoji, And These Two Really Are So, So...",
+            "source": "BuzzFeed via Yahoo Canada News",
+            "time": "\u00b7 2 hours ago",
+            "description": "Very well, actually.\" President Donald Trump onElonMusk: \u201cWe had a great relationship and I wish...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULLiXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-musk-just-responded-video-184947219.html/RK=2/RS=k9mMC5GcTJMrjhJ.wJDGcHLsfTc-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "ElonMuskvs. Donald Trump: A detailed breakdown of how they went from mushy bromance to messy...",
+            "source": "Toronto Star",
+            "time": "\u00b7 4 days ago",
+            "description": "It has been exactly one week sinceElonMusklast stood in the Oval Office. Clad in a shirt that...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULMCXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.thestar.com%2fnews%2fworld%2funited-states%2felon-musk-vs-donald-trump-a-detailed-breakdown-of-how-they-went-from-mushy-bromance%2farticle_002a8a44-eb76-47c1-bb60-f637a1ec524d.html/RK=2/RS=97RYLsMIUhtln9Ccw9eBVcgXlHs-",
+            "sentiment_scores": {
+                "neg": 0.152,
+                "neu": 0.848,
+                "pos": 0.0,
+                "compound": -0.3612
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "\"He's Very Disrespectful\": Trump Just Gave An Update On Where He Stands WithElonMusk, And Yeah,...",
+            "source": "BuzzFeed via Yahoo Canada News",
+            "time": "\u00b7 4 hours ago",
+            "description": "President Donald Trump said billionaireElonMuskwould face \u201cserious consequences\u201d if he threw his...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULMiXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2ftrump-just-told-nbc-elon-165313156.html/RK=2/RS=GWUpcWFFoAfEWlCocLZvNY2KI5A-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.864,
+                "pos": 0.136,
+                "compound": 0.296
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "ElonMusk's Estranged Daughter Seemingly Relishes Trump Fallout: 'Such Beauty In Life'",
+            "source": "HuffPost via Yahoo Canada News",
+            "time": "\u00b7 3 days ago",
+            "description": "ElonMusk\u2019s estranged daughter Vivian Wilson seems to be relishing the public fallout between her...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULNCXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-musks-estranged-daughter-seemingly-205913432.html/RK=2/RS=6g_cwizqCFznnkcGO2a5jNIS8as-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.725,
+                "pos": 0.275,
+                "compound": 0.5859
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "ElonMusk\u2019s Starlink was installed on the White House roof\u2014Dems say it may \u2018undermine national...",
+            "source": "Fortune via Yahoo Canada News",
+            "time": "\u00b7 9 hours ago",
+            "description": "ElonMusk\u2019s DOGE team reportedly installed a Starlink satellite internet system in the White House...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULNiXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzYEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-musk-starlink-installed-white-113116717.html/RK=2/RS=Vjf9B9y.rLgzVt.rOV0TvSblENk-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "ElonMuskResponds to Drug Abuse Rumors",
+            "source": "Just Jared",
+            "time": "\u00b7 1 day ago",
+            "description": "Find out...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULOCXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.justjared.com%2f2025%2f06%2f09%2felon-musk-responds-to-drug-abuse-rumors%2f/RK=2/RS=M_vUhF0uyDYbGz7G_idgmF05Aes-",
+            "sentiment_scores": {
+                "neg": 0.512,
+                "neu": 0.488,
+                "pos": 0.0,
+                "compound": -0.6369
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "'When He Least Expects It': Michael Cohen WarnsElonMuskOf Trump's Revenge",
+            "source": "HuffPost via Yahoo Canada News",
+            "time": "\u00b7 2 days ago",
+            "description": "Michael Cohen, former longtime personal attorney to Donald Trump, on Sunday warnedElonMuskthat...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULOiXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzgEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fleast-expects-michael-cohen-warns-072806329.html/RK=2/RS=9l7D4Gkf9zXACw6wL83jMdn29zk-",
+            "sentiment_scores": {
+                "neg": 0.274,
+                "neu": 0.726,
+                "pos": 0.0,
+                "compound": -0.5267
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Why Are Donald Trump andElonMuskFighting? A Timeline of Their Friendship and Explosive Fallout",
+            "source": "People via Yahoo Canada News",
+            "time": "\u00b7 4 days ago",
+            "description": "Chip Somodevilla/Getty ; Anna Moneymaker/Getty President Donald Trump ;ElonMusk. NEED TO KNOWElon...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULPCXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzkEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fwhy-donald-trump-elon-musk-194953411.html/RK=2/RS=WKOHf3W03RQNI.N_4xAG6LqRpp0-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.805,
+                "pos": 0.195,
+                "compound": 0.4404
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "Trump says Greta Thunberg needs 'anger management' days after his spat withElonMusk",
+            "source": "Indy100",
+            "time": "\u00b7 7 hours ago",
+            "description": "Trump suggested she needed to attend \"anger management classes\" despite going viral last week after...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpFmkhod_ULPiXwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEwBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.indy100.com%2fpolitics%2ftrump%2fdonald-trump-greta-thunberg-anger-management-hypocritical-spat-elon-musk/RK=2/RS=qx9x31SX.dW3A0GuhXIm0yi37vQ-",
+            "sentiment_scores": {
+                "neg": 0.252,
+                "neu": 0.748,
+                "pos": 0.0,
+                "compound": -0.5719
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Who Will ReplaceElonMuskas the Leader of DOGE?",
+            "source": "New York Times",
+            "time": "\u00b7 3 hours ago",
+            "description": "Who wants to lead the Department of Government Efficiency? With the departure ofElonMuskand his right-hand man Steve Davis from government,...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMsxzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.nytimes.com%2f2025%2f06%2f10%2fus%2fpolitics%2fairbnb-gebbia-musk-doge.html/RK=2/RS=kazVckDR5bvNzVqhIodTO0pOsDo-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "MuskJust Made Trump Really Paranoid about JD Vance: Author",
+            "source": "The Daily Beast via Yahoo Canada News",
+            "time": "\u00b7 22 hours ago",
+            "description": "President Donald Trump is spiraling into paranoia afterElonMuskturned Vice President JD Vance...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMtRzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fmusk-just-made-trump-really-223931743.html/RK=2/RS=d._4rzHT.Ej65ob5XjCEt_Jt9oI-",
+            "sentiment_scores": {
+                "neg": 0.223,
+                "neu": 0.777,
+                "pos": 0.0,
+                "compound": -0.3167
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "'Took your wife!'Muskerupts at own X platform after odd Stephen Miller taunt",
+            "source": "The Raw Story",
+            "time": "\u00b7 1 day ago",
+            "description": "ElonMuskcontradicted his own artificial intelligence bot, Grok, over a post mocking White House...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMtxzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.rawstory.com%2felon-musk-2672335116%2f/RK=2/RS=G419kBXk__UJN9IeRTjKF0mobxI-",
+            "sentiment_scores": {
+                "neg": 0.191,
+                "neu": 0.809,
+                "pos": 0.0,
+                "compound": -0.3802
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Revealed: The 100Muskdisciples still embedded in Trump's government",
+            "source": "The Raw Story",
+            "time": "\u00b7 49 minutes ago",
+            "description": "WhileElonMuskhas departed the Department of Government Efficiency, the world\u2019s richest man is...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMuRzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.rawstory.com%2fmusk-2672344492%2f/RK=2/RS=TDqSREJLJZFfUEMrLS783mjdpCc-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Musk-Trump feud likely deliberate with specific goal in mind: Wall St analysts",
+            "source": "The Raw Story",
+            "time": "\u00b7 2 hours ago",
+            "description": "Financial analysts with Wall Street firm Morgan Stanley believe thatElonMusk's very public feud...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMuxzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.rawstory.com%2felon-musk-donald-trump-2672343662%2f/RK=2/RS=7XPb0miQNzXi67a5TInlWB0AHFA-",
+            "sentiment_scores": {
+                "neg": 0.179,
+                "neu": 0.821,
+                "pos": 0.0,
+                "compound": -0.34
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "ElonMuskcalls Trump\u2019s \u2018big, beautiful\u2019 tax bill a \u2018disgusting abomination\u2019 - National |...",
+            "source": "Global B.C.",
+            "time": "\u00b7 6 days ago",
+            "description": "The chasm betweenElonMuskand U.S. President Donald Trump appears to be widening, as the former...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMvRzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzYEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fglobalnews.ca%2fnews%2f11212483%2felon-musk-donald-trump-big-beautiful-bill-disgusting-abomination%2f/RK=2/RS=OfIpadr24dp22pPe3AvGESVyfHU-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Musk\u2019s father saysElonmade a mistake by challenging Trump, feud was triggered by stress",
+            "source": "The Globe and Mail",
+            "time": "\u00b7 1 day ago",
+            "description": "The dispute between Donald Trump andElonMuskwas triggered by months of intense stress on both...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMvxzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.theglobeandmail.com%2fworld%2fus-politics%2farticle-elon-errol-musk-donald-trump-feud%2f/RK=2/RS=hMpnlLPFNnQe5EyAg.gdjeZIXh0-",
+            "sentiment_scores": {
+                "neg": 0.418,
+                "neu": 0.495,
+                "pos": 0.088,
+                "compound": -0.7184
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Cybertruck Sales Are So Bad That We Gasped",
+            "source": "Futurism via Yahoo Finance Canada",
+            "time": "\u00b7 2 hours ago",
+            "description": "Mother of All Flops There's little left for us to say that can further embarrass the Tesla Cybertruck, a vehicle that was supposed to be the culmination...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMwRzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzgEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fca.finance.yahoo.com%2fnews%2fcybertruck-sales-bad-gasped-191851493.html/RK=2/RS=adlj49nwJHzmlGCxcc9Vw0YMV8g-",
+            "sentiment_scores": {
+                "neg": 0.391,
+                "neu": 0.609,
+                "pos": 0.0,
+                "compound": -0.6696
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "What areElonMusk's kids' names? Meet the 14 children of the tech billionaire",
+            "source": "Indy100",
+            "time": "\u00b7 1 day ago",
+            "description": "ElonMuskhas made his feelings about the \"population apocalypse\" known, which might explain his...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMwxzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzkEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.indy100.com%2fpolitics%2felon-musk-kids-children-names-meaning-2672333794/RK=2/RS=iBC6YuwrQvwQGV8X1cxtETgueNI-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "MuskMoves on From the Meltdown",
+            "source": "Bloomberg",
+            "time": "\u00b7 41 minutes ago",
+            "description": "A week after his very public meltdown, theElon, Inc. gang discusses what\u2019s next forMusknow that he\u2019s no longer in the White House",
+            "link": "https://r.search.yahoo.com/_ylt=AwrihGpGmkhoGRQMxRzwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEwBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.bloomberg.com%2fnews%2farticles%2f2025-06-10%2fpodcast-elon-musk-s-next-act/RK=2/RS=8EGJCFRJWkx0Usr_y0uMfc17vK8-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Tesla CEOElonMuskreveals new details about Robotaxi rollout",
+            "source": "Teslarati",
+            "time": "\u00b7 2 hours ago",
+            "description": "An X user with 184 followers has become the unlikely hero of the United States\u2019 space program by...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMiA3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617350/RO=10/RU=https%3a%2f%2fwww.teslarati.com%2ftesla-ceo-elon-musk-reveals-new-details-about-robotaxi-rollout%2f/RK=2/RS=irKMzgMWk2G50.16U5YcBRCL0sY-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Opinion - Trump vs.Musk: Should we laugh or weep?",
+            "source": "The Hill via Yahoo Canada News",
+            "time": "\u00b7 6 hours ago",
+            "description": "Before we start dancing and singing, \u201cDing Dong, the witch is dead,\u201d it is important to remember that certain salient features of the Trump-Muskregime...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMig3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fopinion-trump-vs-musk-laugh-143000461.html/RK=2/RS=3O._keQZpKnryWFFOxq48S04drU-",
+            "sentiment_scores": {
+                "neg": 0.259,
+                "neu": 0.49,
+                "pos": 0.252,
+                "compound": -0.0258
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "ElonMusk\u2019s crash-out killed conservatives\u2019 momentum \u2014 and likely guaranteed passage of Trump\u2019s \u2018big...",
+            "source": "The Independent via Yahoo Canada News",
+            "time": "\u00b7 23 hours ago",
+            "description": "ANALYSIS: Analysis:Muskchoosing to go beyond just fiscal policy criticism and accuse Trump of ties...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMjA3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-musk-crash-killed-conservatives-214621216.html/RK=2/RS=M8.wxtIu8Bww9UCmZIxRZ7nIrdk-",
+            "sentiment_scores": {
+                "neg": 0.273,
+                "neu": 0.727,
+                "pos": 0.0,
+                "compound": -0.6705
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Serena and Venus Williams to Premiere Video Podcast onElonMusk\u2019s X",
+            "source": "Variety via Yahoo Canada News",
+            "time": "\u00b7 5 hours ago",
+            "description": "Tennis powerhouse sibs Venus and Serena Williams are launching a new video podcast \u2014 and they\u2019re...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMjg3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fserena-venus-williams-premiere-video-160000291.html/RK=2/RS=jFgbPKrDCsUBv3.hkVRkB9aB2VU-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "ElonMuskBlasts President Donald Trump In Scathing \"X\" Rant As Their Public Beef Intensifies",
+            "source": "Total Pro Sports",
+            "time": "\u00b7 5 days ago",
+            "description": "ElonMuskcontinued to rip on President Donald Trump in a series of X/Twitter posts on Thursday as...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMkA3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fwww.totalprosports.com%2fgeneral%2felon-musk-blasts-president-donald-trump-in-scathing-x-rant-as-their-public-beef-intensifies%2f/RK=2/RS=kg44s8kVsRZEwLvFpCFTJuwHi6w-",
+            "sentiment_scores": {
+                "neg": 0.167,
+                "neu": 0.833,
+                "pos": 0.0,
+                "compound": -0.34
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Musk\u2019s Banker Michael Grimes Sells SpaceX, Anduril for Trump Job",
+            "source": "Bloomberg",
+            "time": "\u00b7 3 hours ago",
+            "description": "Have a confidential tip for our reporters? Michael Grimes, the veteran technology investment banker...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMkg3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzYEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fwww.bloomberg.com%2fnews%2farticles%2f2025-06-10%2fmusk-s-tech-banker-grimes-sells-spacex-anduril-for-trump-role/RK=2/RS=.BwyhKbtM2QlUyTAhc_gm7d3apI-",
+            "sentiment_scores": {
+                "neg": 0.182,
+                "neu": 0.818,
+                "pos": 0.0,
+                "compound": -0.25
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Why the damageElonMuskfaces from his Trump feud is just getting started",
+            "source": "Fortune via Yahoo Finance Canada",
+            "time": "\u00b7 1 day ago",
+            "description": "The spectacular breakup of Donald Trump andElonMuskcould soon get far worse for the Tesla...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMlA3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.finance.yahoo.com%2fnews%2fwhy-damage-elon-musk-faces-195402795.html/RK=2/RS=x.nfTy9KJWbWxcwTO77odEYGF5s-",
+            "sentiment_scores": {
+                "neg": 0.194,
+                "neu": 0.806,
+                "pos": 0.0,
+                "compound": -0.34
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "DOGE results murky amidElonMusk's exit",
+            "source": "United Press International via Yahoo Canada News",
+            "time": "\u00b7 7 hours ago",
+            "description": "To date, DOGE claims that it has saved the government about $180 billion by slashing the federal workforce, ending contracts, selling assets and cutting...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMlg3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzgEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fdoge-results-murky-amid-elon-133819445.html/RK=2/RS=0cXpiUJxt4Uqamc7lxgz5W1JTMA-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Tesla stock jumps on robotaxi momentum,Musk-Trump feud cooling",
+            "source": "Yahoo Finance",
+            "time": "\u00b7 45 minutes ago",
+            "description": "Tesla stock is charging higher for a third trading session in a row as the company's robotaxi...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMmA3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzkEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.finance.yahoo.com%2fnews%2ftesla-stock-jumps-on-robotaxi-momentum-musk-trump-feud-cooling-200418079.html/RK=2/RS=bMynbyqyjEudtw4rP_8fJNeyJTU-",
+            "sentiment_scores": {
+                "neg": 0.255,
+                "neu": 0.745,
+                "pos": 0.0,
+                "compound": -0.34
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "'I hope not': Trump draws a line onElonMuskbringing drugs into the White House",
+            "source": "USA TODAY via Yahoo Canada News",
+            "time": "\u00b7 24 hours ago",
+            "description": "WASHINGTON \u2014 President Donald Trump is expressing his displeasure with the suggestionElonMusk...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhGmkhoOUkMmg3wFAx.;_ylu=Y29sbwNiZjEEcG9zAzEwBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fhope-not-trump-draws-line-205016555.html/RK=2/RS=aFcvSvVh4_cQe_1st6bOOZHDBqY-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.805,
+                "pos": 0.195,
+                "compound": 0.4404
+            },
+            "sentiment_label": "Positive"
+        },
+        {
+            "headline": "ElonMuskis criticizing Donald Trump \u2014 and Trump isn't hitting back. Why?",
+            "source": "INSIDER via Yahoo Canada News",
+            "time": "\u00b7 6 days ago",
+            "description": "Donald Trump gaveElonMuska \"key to the White House\" afterMuskcriticized Trump's budget bill....",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMcgHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2felon-musk-may-only-person-153013856.html/RK=2/RS=VAITXYRNM8tdxwKyMkst9cEnoyM-",
+            "sentiment_scores": {
+                "neg": 0.2,
+                "neu": 0.8,
+                "pos": 0.0,
+                "compound": -0.3612
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "ElonMusk's Ex Ashley St. Clair Issues Scathing Response to Billionaire and Donald Trump's Feud",
+            "source": "OK! Magazine",
+            "time": "\u00b7 4 days ago",
+            "description": "Ashley St. Clair had a shocking response toElonMuskand Donald Trump's feud.",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMdAHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fokmagazine.com%2fp%2fashley-st-clair-elon-musk-donald-trump-feud-response%2f/RK=2/RS=uNVCbAGswEmCN0to9MvomSB9Fn4-",
+            "sentiment_scores": {
+                "neg": 0.156,
+                "neu": 0.844,
+                "pos": 0.0,
+                "compound": -0.34
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "Elon, Inc: What'sElon's Next Move? - Bloomberg",
+            "source": "Bloomberg",
+            "time": "\u00b7 42 minutes ago",
+            "description": "On this week\u2019s episode, host David gathers Max Chafkin and Dana Hull to go through the latest developments in the aftermath of theElonMusk-Donald Trump ...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMdgHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fwww.bloomberg.com%2fnews%2faudio%2f2025-06-10%2felon-inc-what-s-elon-s-next-move-podcast/RK=2/RS=p74Ya.8rbDoGS4mfODrrqxGNkIw-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "AmidMuskthreat to decommission SpaceX Dragon, NASA reveals more Boeing Starliner delays",
+            "source": "Phys.org",
+            "time": "\u00b7 8 hours ago",
+            "description": "As the fracas betweenElonMuskand President Donald Trump escalated to the point ofMusk...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMdwHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fphys.org%2fnews%2f2025-06-musk-threat-decommission-spacex-dragon.html/RK=2/RS=ujgpuUis9tvDbmkmcU2tmxItKxo-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "ElonMuskproposes forming new political party amid tensions with Trump",
+            "source": "The Nation",
+            "time": "\u00b7 3 days ago",
+            "description": "US billionaireElonMuskfloated the idea of launching a new political party this week, potentially...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMeQHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fwww.nation.com.pk%2f07-Jun-2025%2felon-musk-proposes-forming-new-political-party-amid-tensions-with-trump/RK=2/RS=Cwc_Ejmrd0nxBDr2CbVoxd_DObQ-",
+            "sentiment_scores": {
+                "neg": 0.218,
+                "neu": 0.565,
+                "pos": 0.218,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Muskis leaving the government. Trump is keeping 2 things.",
+            "source": "Business Insider via Yahoo Finance Canada",
+            "time": "\u00b7 16 hours ago",
+            "description": "\"We had a good relationship, and I just wish him well. Very well, actually,\" President Donald Trump...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMewHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzYEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.finance.yahoo.com%2fnews%2fmusk-leaving-government-trump-keeping-045904852.html/RK=2/RS=6r_8dzA1opbsPCyDKk_kjnhjOrc-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "The Internet SystemElonMuskInstalled at the White House Is Causing Concerns",
+            "source": "Futurism via Yahoo Canada News",
+            "time": "\u00b7 1 day ago",
+            "description": "ElonMusk's lackeys at his so-called Department of Government Efficiency installed a Starlink...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMfQHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2finternet-system-elon-musk-installed-161050593.html/RK=2/RS=ZfJDfN1KdnB7F2Nv3eh5wJLi.Qg-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Trump Reveals Why He Can\u2019t Make Up WithMuskYet",
+            "source": "The Daily Beast via Yahoo Canada News",
+            "time": "\u00b7 5 hours ago",
+            "description": "President Trump says he\u2019s just too busy saving the world to reconcile withElonMuskright now, according to a report. New York Post columnist Miranda...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMfwHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzgEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2ftrump-reveals-why-t-musk-160716573.html/RK=2/RS=owpF9KPMYI45ibqeW2CnTqFRdhA-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        },
+        {
+            "headline": "Muskbacks Trump amid ICE battle in California",
+            "source": "The Hill via Yahoo Canada News",
+            "time": "\u00b7 1 day ago",
+            "description": "ElonMuskbacked President Trump amid his fight with California leaders over the immigration protests in Los Angeles on Sunday, just days after the tech...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMgQHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzkEdnRpZAMEc2VjA3Ny/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.news.yahoo.com%2fmusk-backs-trump-amid-ice-140359795.html/RK=2/RS=.f60X8Kzj4_goYxcbsoG263rzmk-",
+            "sentiment_scores": {
+                "neg": 0.302,
+                "neu": 0.698,
+                "pos": 0.0,
+                "compound": -0.3818
+            },
+            "sentiment_label": "Negative"
+        },
+        {
+            "headline": "ElonMuskSays DOGE Savings Will Come \u2018Over Time\u2019: What This Means for Your Wallet",
+            "source": "GOBankingRates via Yahoo Finance Canada",
+            "time": "\u00b7 1 day ago",
+            "description": "ElonMuskhas officially left the Department of Government Efficiency (DOGE), but stated his team's...",
+            "link": "https://r.search.yahoo.com/_ylt=AwrFYwhHmkhoQ1YMgwHwFAx.;_ylu=Y29sbwNiZjEEcG9zAzEwBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1749617351/RO=10/RU=https%3a%2f%2fca.finance.yahoo.com%2fnews%2felon-musk-says-doge-savings-151422453.html/RK=2/RS=0ndK1huD4T5GbLppiTkLgVhTU4w-",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0,
+                "compound": 0.0
+            },
+            "sentiment_label": "Neutral"
+        }
+    ]
+}

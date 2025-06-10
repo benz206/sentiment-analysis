@@ -31,3 +31,6 @@ Choose a trending topic you’re interested in (e.g., interest rates, electric v
     - Even an interactive dashboard (e.g., Streamlit) if you’re feeling creative
 4. Share your results (code + summary/output) in the ⁠trial-submission channel by the end of Wednesday, June 11.
 Don't worry if you're new to this—it's designed to be a starter task, and we’ll be around to answer questions!
+
+## WriteUp
+
