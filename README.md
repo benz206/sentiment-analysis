@@ -15,6 +15,9 @@ pip install -r requirements.txt
 
 # Running... Wow
 python3 src/main.py
+
+# For streamlit, you can also just run
+streamlit run src/main.py
 ```
 
 ## Task
