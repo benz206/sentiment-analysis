@@ -71,6 +71,7 @@ def init_db(conn: Optional[sqlite3.Connection] = None) -> None:
     if close_after:
         conn.close()
 
+
 def insert_post(
     platform: str,
     platform_post_id: str,
@@ -398,7 +399,6 @@ def migrate_reddit_raw_to_posts(
     if close_after:
         conn.close()
     return inserted
-
 
 
 if __name__ == "__main__":
