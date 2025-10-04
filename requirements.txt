@@ -4,3 +4,4 @@ streamlit==1.45.1
 matplotlib==3.10.3
 statsmodels==0.14.4
 textblob==0.18.0
+torch
